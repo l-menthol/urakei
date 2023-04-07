@@ -1,6 +1,6 @@
 const siteMeta = {
   siteTitle: "浦 圭です。",
-  siteDesc: "浦 圭のポートフォリオサイト",
+  siteDesc: "浦 圭のポートフォリオサイトです。",
   siteUrl: "https://urakei-mnh8y5npx-l-menthol.vercel.app/",
   siteLang: "ja",
   siteLocal: "ja_JP",
