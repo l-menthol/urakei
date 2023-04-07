@@ -4,7 +4,6 @@ import Hero from "@/components/hero";
 import Meta from "@/components/meta";
 import Works from "@/components/works";
 import Profile from "@/components/profile";
-import Pagination from "@/components/pagination";
 import { getPlaiceholder } from "plaiceholder";
 import { eyecatchLocal } from "@/lib/constants.js";
 
