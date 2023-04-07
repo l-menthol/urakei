@@ -1,0 +1,35 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-jump);
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-lg);
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-xs);
+  }
+}
+
+.post {
+  h2 {
+    margin-top: 0.5em;
+    font-size: var(--small-heading3);
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+      font-size: calc(var(--small-heading3) * 0.8);
+    }
+  }
+  figure {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

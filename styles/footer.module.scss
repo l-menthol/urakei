@@ -1,0 +1,14 @@
+.flexContainer {
+  composes: sideBySideCenter from "../styles/utils.module.scss";
+}
+.wrapper {
+  padding: var(--space-xs) 0;
+  background-color: var(--gray-10);
+  text-align: center;
+}
+.btn {
+  all: unset;
+  outline: revert;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}

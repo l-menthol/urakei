@@ -1,0 +1,18 @@
+.flexContainer {
+  composes: sideBySideCenter from "../styles/utils.module.scss";
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-lg);
+  gap: var(--space-jump);
+  justify-content: left;
+}
+
+.img {
+}
+
+.text {
+  text-align: left;
+  font-size: var(--body);
+  h3 {
+    margin-bottom: var(--space-xs);
+  }
+}

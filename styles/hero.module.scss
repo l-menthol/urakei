@@ -1,0 +1,42 @@
+.text {
+  padding-top: calc(var(--heading1) * 0.5);
+  padding-bottom: calc(var(--heading1) * 0.7);
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+.title {
+  font-size: var(--heading1);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+
+.subtitle {
+  font-size: var(--heading2);
+  position: relative;
+  left: 0.25em;
+  &:first-letter {
+    font-size: 90%;
+  }
+}
+.skill {
+  font-size: var(--small-heading3);
+  color: var(--gray-50);
+  margin-top: var(--space-xs);
+}
+
+.flexContainer {
+  composes: sideBySideCenter from "../styles/utils.module.scss";
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+}
+
+.image {
+  width: 80%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
