@@ -36,5 +36,8 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.8.0",
     "react-scroll": "^1.8.9"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
